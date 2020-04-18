@@ -33,5 +33,6 @@ public class BlogPostRepositoryTest {
 
         List<BlogUser> users = repository.findAll();
         assertTrue("findAll() must return saved user", users.contains(user));
+        assertTrue(false);
     }
 }
